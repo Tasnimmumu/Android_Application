@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewScreenActivity"
+    android:background="#21C8BF"
+    >
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="408dp"
+        android:layout_height="386dp"
+        android:src="@drawable/classroom"
+        android:layout_centerInParent="true"
+        android:transitionName="logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="VIRTUAL CLASSROOM"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:transitionName="text"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="casual"
+        android:text="Get Started"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:backgroundTint="#157771"
+        android:textColor="#fff"
+
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</RelativeLayout>

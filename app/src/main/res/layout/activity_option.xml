@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionActivity"
+    android:background="@color/colorAccent"
+    >
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <RadioButton
+
+            android:id="@+id/choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register as a Teacher"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:onClick="teacherbutton"
+            android:checked="true"
+            tools:ignore="OnClick" />
+        <RadioButton
+
+            android:id="@+id/choosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register as a Student"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:onClick="studentbutton"
+            tools:ignore="OnClick" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-94dp"
+        android:src="@drawable/ic_login_hero" />
+
+    <TextView
+
+        android:id="@+id/selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Who Are You?"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/registerButton"
+        style="@style/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="casual"
+        android:text="Register"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#11CFC5" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        style="@style/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="550dp"
+        android:fontFamily="casual"
+        android:text="Login"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#11CFC5" />
+
+
+</RelativeLayout>

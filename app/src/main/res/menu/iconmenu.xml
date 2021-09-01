@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item android:id="@+id/menu_calender"
+        android:icon="@drawable/ic_baseline_calendar_view_day_24"
+        android:title="Calender"/>
+
+    <item android:id="@+id/menu_view"
+        android:icon="@drawable/ic_baseline_preview_24"
+        android:title="View all Question"/>
+
+    <item android:id="@+id/menu_about"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="About"/>
+
+
+
+
+
+</menu>
